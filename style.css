@@ -1,0 +1,136 @@
+body{
+
+    background-color: rgb(234, 233, 233);
+}
+.container{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(82, 19, 137);
+}
+.area1{
+    width: 30%;
+    overflow: hidden;
+    height: 600px;
+    background-color: rgb(110, 184, 157);
+    transition: 0.4s;
+    border-top-left-radius: 20px;
+}
+.area1:hover{
+    box-shadow: 0 1px 10px 0.2px black;
+}
+.area1Head{
+    width: auto;
+    height: 50px;
+}
+.area1Header{
+    width: auto;
+    height: 50px;
+    margin-top: 100px;
+}
+.area1h{
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+.area1Description{
+    width: auto;
+    height: 130px;
+
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+.area1BtnArea{
+    width: auto;
+    height: 70px;
+
+}
+.a1Btn{
+    width: 50%;
+    border-radius: 50px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-left: 25%;
+    transition: 0.4s;
+}
+.a1Btn:hover{
+    box-shadow: 0 1px 10px 0.2px black;
+    cursor: pointer;
+}
+.area2{
+    width: 700px;
+    display: flex;
+    overflow: hidden;
+    height: 600px;
+    background-color: rgb(54, 79, 100);
+}
+.area2Head{
+    width: 100%;
+    height: 200px;
+    
+}
+.area2Header{
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 80px;
+    height: 50px;
+}
+.circleArea{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgb(83, 156, 89);
+    margin-left: 50px;
+}
+.area2Form{
+    width: 695px;
+    height: 300px;
+    margin-top: 100px;
+}
+.area2FContainer{
+    margin: 0 auto;
+    width: 70%;
+    height: 280px;
+
+}
+.area2InputArea{
+    width: 95%;
+    height: 250px;
+    margin: 0 auto;
+
+}
+.input{
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+    margin-left: 30%;
+    width: 180px;
+}
+.submit{
+    margin-left: 38%;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(110, 184, 157);
+    color: white;
+    transition: 0.4s;
+}
+.submit:hover{
+    box-shadow: 0 1px 10px 0.2px black;
+    cursor: pointer;
+}

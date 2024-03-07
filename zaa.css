@@ -1,0 +1,23 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 0 auto;
+    animation-name: animasyon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    border-radius: 50px;
+}
+@keyframes animasyon{
+    from{margin-top: 100px;}
+    to{margin-top: 150px;}
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.4rem;
+    color: rgb(221, 218, 218);
+    border: 1px solid;
+    position: static;
+    text-align: center;
+}
